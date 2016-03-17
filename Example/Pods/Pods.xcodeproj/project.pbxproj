@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		056E1E4352B55AC92A041F9A7C31B504 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+		69BD5FF02F1231FF6F96AD3FF1387FEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+		79FEBAC3EE68F74DA94ACF935EF2D02D /* TutorialScrollViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9081A5561B325B730F4B3C26B010802 /* TutorialScrollViewController-dummy.m */; };
+		82F17F77DC18F2D0262703E0A4FFDFAB /* TutorialScrollViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C0E8AD71DF26A8D4666F968AA07489F /* TutorialScrollViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F788922D6919DFF5C4D327F74953C96 /* Pods-TutorialScrollViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7305F11EC3A57BFC8DF7411ECD66A34 /* Pods-TutorialScrollViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A48160847DA4FD816262C4A4CAF8E2D5 /* Pods-TutorialScrollViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6CD343367DEEE86F0EDF1B725520132 /* Pods-TutorialScrollViewController_Example-dummy.m */; };
+		CFB1F2936CC638BB5A75E98C7BB437F4 /* TutorialScrollViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3B45842A19CED1F46AEAE9E0E1E49453 /* TutorialScrollViewController.bundle */; };
+		D88AA065005148057025F966F47B7CD7 /* TutorialScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A735EFA108454A6E54895D3882EDE933 /* TutorialScrollViewController.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7719BAE7F9A662A2F9DF584D1AFBE42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDACFC35AA6359574D1D285E5F4B89B0;
+			remoteInfo = TutorialScrollViewController;
+		};
+		E5AEB55E6940EF2B16B94A7DA5846A07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B81398386BD0E9DC94199C9087753B2;
+			remoteInfo = "TutorialScrollViewController-TutorialScrollViewController";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		004F86D0BBD1779F9C06C90DE58B3595 /* Pods-TutorialScrollViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TutorialScrollViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0C554FBF42EA1C5E191896512B509EB8 /* Pods-TutorialScrollViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TutorialScrollViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		0DCB603AEA94028FEB8346DC639CDBDC /* TutorialScrollViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TutorialScrollViewController-prefix.pch"; sourceTree = "<group>"; };
+		21C4228F77BD67184B5F65ACC29879B4 /* Pods-TutorialScrollViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TutorialScrollViewController_Example.modulemap"; sourceTree = "<group>"; };
+		3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3B45842A19CED1F46AEAE9E0E1E49453 /* TutorialScrollViewController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TutorialScrollViewController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D3B216A06AFFC4C2CD65C49E365349A /* TutorialScrollViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TutorialScrollViewController.xcconfig; sourceTree = "<group>"; };
+		446DF6E1437BF19D52DED829DC694B2D /* Pods-TutorialScrollViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TutorialScrollViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4C4058B412B478E5624BE09DF200ACCA /* Pods_TutorialScrollViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TutorialScrollViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58BF81C94CCFC4FA3E63B6842DFD4424 /* Pods-TutorialScrollViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TutorialScrollViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		62FA08F6C4C05BF45F7C95A54C5B5137 /* Pods-TutorialScrollViewController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TutorialScrollViewController_Example-resources.sh"; sourceTree = "<group>"; };
+		6C112CDEE7E9B518E18DC54B6BDA2511 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C0E8AD71DF26A8D4666F968AA07489F /* TutorialScrollViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TutorialScrollViewController-umbrella.h"; sourceTree = "<group>"; };
+		922BFA7475882C2916B87C95F5121DF1 /* TutorialScrollViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TutorialScrollViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9796B63243D540C4A3B268BD41F8FB0A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7305F11EC3A57BFC8DF7411ECD66A34 /* Pods-TutorialScrollViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TutorialScrollViewController_Example-umbrella.h"; sourceTree = "<group>"; };
+		A735EFA108454A6E54895D3882EDE933 /* TutorialScrollViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TutorialScrollViewController.swift; sourceTree = "<group>"; };
+		B32E4ED657345DECEDF3866E892BB3E5 /* ResourceBundle-TutorialScrollViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TutorialScrollViewController-Info.plist"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C816FE6C5901BCBDE619E7CCB4341602 /* TutorialScrollViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TutorialScrollViewController.modulemap; sourceTree = "<group>"; };
+		E6CD343367DEEE86F0EDF1B725520132 /* Pods-TutorialScrollViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TutorialScrollViewController_Example-dummy.m"; sourceTree = "<group>"; };
+		E9081A5561B325B730F4B3C26B010802 /* TutorialScrollViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TutorialScrollViewController-dummy.m"; sourceTree = "<group>"; };
+		F183AF1E4C27108FD9A52959A9E5ECF3 /* Pods-TutorialScrollViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TutorialScrollViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E949ED6213BCE5121025FE485DEDF33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42FDB72B0943E1CAE9BAD8FF9862A00B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69BD5FF02F1231FF6F96AD3FF1387FEE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C1C0F5FB6177AFF746C0E5164D4EA1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056E1E4352B55AC92A041F9A7C31B504 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0156E7A9A21BE3BEBE85D9AC3A1526C5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7BA42FDF2050D1166A565C3445ACB615 /* TutorialScrollViewController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		04445C7D35B87280075C14C73C192A6A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2ED916738CCBC89ACEB2AAF042C2D3D5 /* Pods-TutorialScrollViewController_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0F33131A932B5AFDC3BFE4F22E6B61B7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A735EFA108454A6E54895D3882EDE933 /* TutorialScrollViewController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		112C7921E3A497328D11F4930CBBC9CA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		2B47F9F98F246EB8C7AF99473DC9524A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9796B63243D540C4A3B268BD41F8FB0A /* Info.plist */,
+				B32E4ED657345DECEDF3866E892BB3E5 /* ResourceBundle-TutorialScrollViewController-Info.plist */,
+				C816FE6C5901BCBDE619E7CCB4341602 /* TutorialScrollViewController.modulemap */,
+				3D3B216A06AFFC4C2CD65C49E365349A /* TutorialScrollViewController.xcconfig */,
+				E9081A5561B325B730F4B3C26B010802 /* TutorialScrollViewController-dummy.m */,
+				0DCB603AEA94028FEB8346DC639CDBDC /* TutorialScrollViewController-prefix.pch */,
+				8C0E8AD71DF26A8D4666F968AA07489F /* TutorialScrollViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TutorialScrollViewController";
+			sourceTree = "<group>";
+		};
+		2ED916738CCBC89ACEB2AAF042C2D3D5 /* Pods-TutorialScrollViewController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6C112CDEE7E9B518E18DC54B6BDA2511 /* Info.plist */,
+				21C4228F77BD67184B5F65ACC29879B4 /* Pods-TutorialScrollViewController_Example.modulemap */,
+				F183AF1E4C27108FD9A52959A9E5ECF3 /* Pods-TutorialScrollViewController_Example-acknowledgements.markdown */,
+				004F86D0BBD1779F9C06C90DE58B3595 /* Pods-TutorialScrollViewController_Example-acknowledgements.plist */,
+				E6CD343367DEEE86F0EDF1B725520132 /* Pods-TutorialScrollViewController_Example-dummy.m */,
+				0C554FBF42EA1C5E191896512B509EB8 /* Pods-TutorialScrollViewController_Example-frameworks.sh */,
+				62FA08F6C4C05BF45F7C95A54C5B5137 /* Pods-TutorialScrollViewController_Example-resources.sh */,
+				A7305F11EC3A57BFC8DF7411ECD66A34 /* Pods-TutorialScrollViewController_Example-umbrella.h */,
+				58BF81C94CCFC4FA3E63B6842DFD4424 /* Pods-TutorialScrollViewController_Example.debug.xcconfig */,
+				446DF6E1437BF19D52DED829DC694B2D /* Pods-TutorialScrollViewController_Example.release.xcconfig */,
+			);
+			name = "Pods-TutorialScrollViewController_Example";
+			path = "Target Support Files/Pods-TutorialScrollViewController_Example";
+			sourceTree = "<group>";
+		};
+		7BA42FDF2050D1166A565C3445ACB615 /* TutorialScrollViewController */ = {
+			isa = PBXGroup;
+			children = (
+				948220B1A5F0E2BF7E45C961C655BCBC /* Pod */,
+				2B47F9F98F246EB8C7AF99473DC9524A /* Support Files */,
+			);
+			name = TutorialScrollViewController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				0156E7A9A21BE3BEBE85D9AC3A1526C5 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				B1A5D0385E7B81F1DA26387F71DE7B5B /* Products */,
+				04445C7D35B87280075C14C73C192A6A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		948220B1A5F0E2BF7E45C961C655BCBC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0F33131A932B5AFDC3BFE4F22E6B61B7 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		B1A5D0385E7B81F1DA26387F71DE7B5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C4058B412B478E5624BE09DF200ACCA /* Pods_TutorialScrollViewController_Example.framework */,
+				3B45842A19CED1F46AEAE9E0E1E49453 /* TutorialScrollViewController.bundle */,
+				922BFA7475882C2916B87C95F5121DF1 /* TutorialScrollViewController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				112C7921E3A497328D11F4930CBBC9CA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		80FDFD09C1F72323FD5AC2AC3E7269BB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82F17F77DC18F2D0262703E0A4FFDFAB /* TutorialScrollViewController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B13D7E0B634E9C5F235C7F0CF2C9B760 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F788922D6919DFF5C4D327F74953C96 /* Pods-TutorialScrollViewController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9B81398386BD0E9DC94199C9087753B2 /* TutorialScrollViewController-TutorialScrollViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E74DD8B24B30D5DF7BB092D417D3A2A7 /* Build configuration list for PBXNativeTarget "TutorialScrollViewController-TutorialScrollViewController" */;
+			buildPhases = (
+				492DD969134A887EBFE260BC14CCAF17 /* Sources */,
+				3E949ED6213BCE5121025FE485DEDF33 /* Frameworks */,
+				4F8A932D22D43D9AD8B3FF2B11C5B49D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TutorialScrollViewController-TutorialScrollViewController";
+			productName = "TutorialScrollViewController-TutorialScrollViewController";
+			productReference = 3B45842A19CED1F46AEAE9E0E1E49453 /* TutorialScrollViewController.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		BDACFC35AA6359574D1D285E5F4B89B0 /* TutorialScrollViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91807C8237BF8A66F8CA31986CE4A129 /* Build configuration list for PBXNativeTarget "TutorialScrollViewController" */;
+			buildPhases = (
+				24DB3DD6E806CD5655CC8C956EEF4421 /* Sources */,
+				6C1C0F5FB6177AFF746C0E5164D4EA1E /* Frameworks */,
+				F8E2E491DB5FF1D20F8D3F0D3025CE32 /* Resources */,
+				80FDFD09C1F72323FD5AC2AC3E7269BB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FE343A7E7FF44BB4C7BE080CBF2D7ED /* PBXTargetDependency */,
+			);
+			name = TutorialScrollViewController;
+			productName = TutorialScrollViewController;
+			productReference = 922BFA7475882C2916B87C95F5121DF1 /* TutorialScrollViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BE900C6B86D24BB5AA4EF3CDEF256A59 /* Pods-TutorialScrollViewController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DDD84054E6A7DECA64473FB07385ADB /* Build configuration list for PBXNativeTarget "Pods-TutorialScrollViewController_Example" */;
+			buildPhases = (
+				C2795153D11676E6EF3A6B55A84E6194 /* Sources */,
+				42FDB72B0943E1CAE9BAD8FF9862A00B /* Frameworks */,
+				B13D7E0B634E9C5F235C7F0CF2C9B760 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3104A664D3064BEC418BE269ECA932C /* PBXTargetDependency */,
+			);
+			name = "Pods-TutorialScrollViewController_Example";
+			productName = "Pods-TutorialScrollViewController_Example";
+			productReference = 4C4058B412B478E5624BE09DF200ACCA /* Pods_TutorialScrollViewController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B1A5D0385E7B81F1DA26387F71DE7B5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE900C6B86D24BB5AA4EF3CDEF256A59 /* Pods-TutorialScrollViewController_Example */,
+				BDACFC35AA6359574D1D285E5F4B89B0 /* TutorialScrollViewController */,
+				9B81398386BD0E9DC94199C9087753B2 /* TutorialScrollViewController-TutorialScrollViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F8A932D22D43D9AD8B3FF2B11C5B49D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8E2E491DB5FF1D20F8D3F0D3025CE32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFB1F2936CC638BB5A75E98C7BB437F4 /* TutorialScrollViewController.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24DB3DD6E806CD5655CC8C956EEF4421 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79FEBAC3EE68F74DA94ACF935EF2D02D /* TutorialScrollViewController-dummy.m in Sources */,
+				D88AA065005148057025F966F47B7CD7 /* TutorialScrollViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		492DD969134A887EBFE260BC14CCAF17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2795153D11676E6EF3A6B55A84E6194 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A48160847DA4FD816262C4A4CAF8E2D5 /* Pods-TutorialScrollViewController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FE343A7E7FF44BB4C7BE080CBF2D7ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TutorialScrollViewController-TutorialScrollViewController";
+			target = 9B81398386BD0E9DC94199C9087753B2 /* TutorialScrollViewController-TutorialScrollViewController */;
+			targetProxy = E5AEB55E6940EF2B16B94A7DA5846A07 /* PBXContainerItemProxy */;
+		};
+		E3104A664D3064BEC418BE269ECA932C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TutorialScrollViewController;
+			target = BDACFC35AA6359574D1D285E5F4B89B0 /* TutorialScrollViewController */;
+			targetProxy = C7719BAE7F9A662A2F9DF584D1AFBE42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		27F45512CC1943309F1AE766C66F2808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D3B216A06AFFC4C2CD65C49E365349A /* TutorialScrollViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TutorialScrollViewController/TutorialScrollViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TutorialScrollViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TutorialScrollViewController/TutorialScrollViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TutorialScrollViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4B5BDE06511D23536278162F20B55129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D3B216A06AFFC4C2CD65C49E365349A /* TutorialScrollViewController.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/TutorialScrollViewController/ResourceBundle-TutorialScrollViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TutorialScrollViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		70B7D4B3559D6D3C993DAF381AF1FB72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 446DF6E1437BF19D52DED829DC694B2D /* Pods-TutorialScrollViewController_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TutorialScrollViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TutorialScrollViewController_Example/Pods-TutorialScrollViewController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TutorialScrollViewController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		811519CB8F683AC06F9C98B55AC40F11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		882EB4391EC2E701934974DA86F7343F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A0BBEEBC9121732E1300B0427553FC4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58BF81C94CCFC4FA3E63B6842DFD4424 /* Pods-TutorialScrollViewController_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TutorialScrollViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TutorialScrollViewController_Example/Pods-TutorialScrollViewController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TutorialScrollViewController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B3F31C6DB8DE70C1D8A9004D61B08F5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D3B216A06AFFC4C2CD65C49E365349A /* TutorialScrollViewController.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/TutorialScrollViewController/ResourceBundle-TutorialScrollViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TutorialScrollViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		BC19236B1DB3899A4CEE17337D214FFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D3B216A06AFFC4C2CD65C49E365349A /* TutorialScrollViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TutorialScrollViewController/TutorialScrollViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TutorialScrollViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TutorialScrollViewController/TutorialScrollViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TutorialScrollViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				882EB4391EC2E701934974DA86F7343F /* Debug */,
+				811519CB8F683AC06F9C98B55AC40F11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DDD84054E6A7DECA64473FB07385ADB /* Build configuration list for PBXNativeTarget "Pods-TutorialScrollViewController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0BBEEBC9121732E1300B0427553FC4E /* Debug */,
+				70B7D4B3559D6D3C993DAF381AF1FB72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91807C8237BF8A66F8CA31986CE4A129 /* Build configuration list for PBXNativeTarget "TutorialScrollViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27F45512CC1943309F1AE766C66F2808 /* Debug */,
+				BC19236B1DB3899A4CEE17337D214FFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E74DD8B24B30D5DF7BB092D417D3A2A7 /* Build configuration list for PBXNativeTarget "TutorialScrollViewController-TutorialScrollViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B5BDE06511D23536278162F20B55129 /* Debug */,
+				B3F31C6DB8DE70C1D8A9004D61B08F5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

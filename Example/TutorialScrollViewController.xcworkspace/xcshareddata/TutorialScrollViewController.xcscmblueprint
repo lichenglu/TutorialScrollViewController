@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8078EE7E2A3890FA053DCD6B485CF6B6988D9E5E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8078EE7E2A3890FA053DCD6B485CF6B6988D9E5E" : 0,
+    "85DCB443725B13D0A9E1093A179899540736F796" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E1DC8F71-4F56-461A-8C08-FBA6140C476F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8078EE7E2A3890FA053DCD6B485CF6B6988D9E5E" : "TutorialScrollViewController\/",
+    "85DCB443725B13D0A9E1093A179899540736F796" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TutorialScrollViewController",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/TutorialScrollViewController.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lichenglu\/TutorialScrollViewController.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8078EE7E2A3890FA053DCD6B485CF6B6988D9E5E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lichenglu\/TutorialPagingViewController.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "85DCB443725B13D0A9E1093A179899540736F796"
+    }
+  ]
+}

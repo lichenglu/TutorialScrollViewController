@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import TutorialScrollViewController
 
-class ViewController: UIViewController {
+class ViewController: TutorialScrollViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

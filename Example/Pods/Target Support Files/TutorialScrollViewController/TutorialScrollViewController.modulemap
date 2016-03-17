@@ -1,0 +1,6 @@
+framework module TutorialScrollViewController {
+  umbrella header "TutorialScrollViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

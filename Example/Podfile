@@ -1,12 +1,11 @@
 source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, ‘8.0’
+inhibit_all_warnings!
+
+xcodeproj 'TutorialScrollViewController'
 use_frameworks!
 
-target 'TutorialScrollViewController_Example', :exclusive => true do
-  pod 'TutorialScrollViewController', :path => '../'
-end
-
-target 'TutorialScrollViewController_Tests', :exclusive => true do
-  pod 'TutorialScrollViewController', :path => '../'
-
-  
+target 'TutorialScrollViewController_Example' do
+  pod 'TutorialScrollViewController', :path => '../'  
 end
