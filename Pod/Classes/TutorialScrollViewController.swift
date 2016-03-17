@@ -1,11 +1,8 @@
-
-public class TutorialPageViewController: UIPageViewController {
+public class TutorialScrollViewController: UIPageViewController {
     
     private(set) lazy var orderedViewControllers: [UIViewController] = []
     
     private var pageControl = UIPageControl()
-    
-    private var counter = 0
     
     // Controllable variable for users. An array which contains all the storyboard ids
     // of the viewControllers to be rendered
@@ -31,7 +28,6 @@ public class TutorialPageViewController: UIPageViewController {
         didSet{
             pageControl.currentPage = currentPage
             setViewControllers([orderedViewControllers[currentPage]], direction: .Forward, animated: false, completion: nil)
-            counter = pageControl.currentPage
         }
     }
     
@@ -53,6 +49,8 @@ public class TutorialPageViewController: UIPageViewController {
         }
     }
     
+    public var enableTappingPageControl:Bool = true
+    
     override public func viewDidLoad() {
         super.viewDidLoad()
         
@@ -65,8 +63,6 @@ public class TutorialPageViewController: UIPageViewController {
         pageControl.numberOfPages = orderedViewControllers.count
         pageControl.currentPage = currentPage
         pageControl.addTarget(self, action: "didTapPageControl:", forControlEvents: .TouchUpInside)
-        
-        counter = pageControl.currentPage
         
         view.addSubview(pageControl)
         
@@ -101,30 +97,51 @@ public class TutorialPageViewController: UIPageViewController {
         return orderedViewControllers
     }
     
-    private func didTapPageControl(pageControl: UIPageControl){
+    public func didTapPageControl(pageControl: UIPageControl?){
         
-        counter++
+        if !enableTappingPageControl{
+            return
+        }
         
-        if let currentViewController = viewControllers?[0]{
-            let currentPageIndex = orderedViewControllers.indexOf(currentViewController)
-            var upcomingTutorialPage = pageControl.currentPage
+        if let pageControl = pageControl{
             
-            let direction:UIPageViewControllerNavigationDirection = (currentPageIndex < upcomingTutorialPage) ? .Forward : .Reverse
-            
-            if counter >= orderedViewControllers.count {
-                pageControl.currentPage = 0
-                upcomingTutorialPage = 0
-                counter = 0
+            if let currentViewController = viewControllers?[0]{
+                let currentPageIndex = orderedViewControllers.indexOf(currentViewController)
+                var upcomingTutorialPage = pageControl.currentPage
+                
+                var direction:UIPageViewControllerNavigationDirection = (currentPageIndex <= upcomingTutorialPage) ? .Forward : .Reverse
+                
+                if currentPageIndex == 0 && currentPageIndex == upcomingTutorialPage{
+                    direction = .Reverse
+                }
+                
+                if enablePageLooping{
+                    
+                    switch currentViewController{
+                    case orderedViewControllers.last!:
+                        if direction == .Forward{
+                            pageControl.currentPage = 0
+                            upcomingTutorialPage = 0
+                        }
+                    case orderedViewControllers.first!:
+                        if direction == .Reverse{
+                            pageControl.currentPage = orderedViewControllers.count - 1
+                            upcomingTutorialPage = orderedViewControllers.count - 1
+                        }
+                    default:
+                        break
+                    }
+                }
+                
+                setViewControllers([orderedViewControllers[upcomingTutorialPage]], direction: direction, animated: true, completion: nil)
             }
-            
-            setViewControllers([orderedViewControllers[upcomingTutorialPage]], direction: direction, animated: true, completion: nil)
         }
     }
 }
 
 // MARK: UIPageViewControllerDataSource
 
-extension TutorialPageViewController: UIPageViewControllerDataSource {
+extension TutorialScrollViewController: UIPageViewControllerDataSource {
     
     // protocal function: render previous page
     public func pageViewController(pageViewController: UIPageViewController,
@@ -137,7 +154,13 @@ extension TutorialPageViewController: UIPageViewControllerDataSource {
             let previousIndex = viewControllerIndex - 1
             
             guard previousIndex >= 0 else {
-                return nil
+                if enablePageLooping{
+                    
+                    return orderedViewControllers.last
+                    
+                }else{
+                    return nil
+                }
             }
             
             guard orderedViewControllers.count > previousIndex else {
@@ -193,7 +216,7 @@ extension TutorialPageViewController: UIPageViewControllerDataSource {
     //    }
 }
 
-extension TutorialPageViewController:UIPageViewControllerDelegate{
+extension TutorialScrollViewController:UIPageViewControllerDelegate{
     
     public func pageViewController(pageViewController: UIPageViewController, didFinishAnimating finished: Bool, previousViewControllers: [UIViewController], transitionCompleted completed: Bool) {
         
@@ -204,7 +227,6 @@ extension TutorialPageViewController:UIPageViewControllerDelegate{
                     fatalError("No controller to be rendered")
             }
             pageControl.currentPage = currentViewControllerIndex
-            counter = pageControl.currentPage
         }
     }
 }

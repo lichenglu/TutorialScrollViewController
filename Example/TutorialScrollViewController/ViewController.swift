@@ -10,10 +10,24 @@ import UIKit
 import TutorialScrollViewController
 
 class ViewController: TutorialScrollViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        // Instantiate your viewControllers that you wanna include in the pageController
+        self.controllerStoryboardIds = ["Red","Green","Blue"]
+        
+        // Enable pageLooping so that you can loop around pages
+        self.enablePageLooping = true
+        
+        // Whether to show pageControl or not
+        self.pageControlIsHidden = false
+        
+        // Adjust pageControl's y position
+        self.pageControlYPosition = 80.0
+        
+        // Adjust pageControl's x position
+        self.pageControlXPosition = 0.0
     }
 
     override func didReceiveMemoryWarning() {

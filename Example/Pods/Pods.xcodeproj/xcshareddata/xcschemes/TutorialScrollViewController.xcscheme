@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '64E5A7F32CAF7B0C65631CB8'
+               BlueprintIdentifier = '2C99588241CA243255808D66'
                BlueprintName = 'TutorialScrollViewController'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'TutorialScrollViewController.framework'>
