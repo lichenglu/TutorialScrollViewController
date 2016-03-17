@@ -36,7 +36,7 @@ override func viewDidLoad() {
 ```
 Build and Run!
 
-![Demo Gif](https://raw.githubusercontent.com/lichenglu/TutorialScrollViewController/master/Assets/demo.gif)
+![Demo Gif](https://cloud.githubusercontent.com/assets/14342440/13856051/69bf22a4-ec41-11e5-8eb8-0211ad1d1f39.gif)
 
 ## Customizable Properties:
 
