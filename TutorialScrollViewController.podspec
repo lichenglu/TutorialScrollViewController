@@ -17,9 +17,10 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+  Whenever we make an app, it is really likely for us to include several tutorial views when app is first launched. Normally, these view are contained in a scrollViewController with paging enable. I believe most of you know how to achieve this from scratch, but it takes time. So this framework is aimed to minimize the work you need to do to set up a sound and working tutorial viewController
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/TutorialScrollViewController"
+  s.homepage         = "https://github.com/lichenglu/TutorialScrollViewController"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Chenglu Li" => "kabelee92@gmail.com" }
