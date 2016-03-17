@@ -8,6 +8,23 @@
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+Then, import the framework/library:
+```swift
+import TutorialScrollViewController
+```
+Now you are good to use the pod! TutorialScrollViewController is a subclass of PageController. So it would be better if you could change your viewController in storyboard to a pageViewController so that you can customize your "transitionStyle", as it is a read-only property.
+
+To instantiate the controller, simply assign your target viewControllers' storyboard [ids] to this property:
+
+```swift
+override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        // Instantiate your viewControllers that you wanna include in the pageController
+        self.controllerStoryboardIds = ["Red","Green","Blue"] // Notice: it is an array of ids
+    }
+
+```
 
 ## Requirements
 
