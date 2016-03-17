@@ -27,7 +27,7 @@ override func viewDidLoad() {
 ```
 Build and Run!
 
-![Demo Gif](https://raw.githubusercontent.com/lichenglu/TutorialScrollViewController/master/Assets/demo.gif =250x250)
+![Demo Gif](https://raw.githubusercontent.com/lichenglu/TutorialScrollViewController/master/Assets/demo.gif width="200" height="500")
 
 ## Requirements
 
